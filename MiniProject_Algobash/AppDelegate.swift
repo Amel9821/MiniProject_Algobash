@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import Alamofire
+
+var AFManager : Session!
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let configuration = URLSessionConfiguration.default
+        configuration.timeoutIntervalForRequest = 60 // seconds
+        configuration.timeoutIntervalForResource = 60 //seconds
+        AFManager = Alamofire.Session(configuration: configuration)
         return true
     }
 

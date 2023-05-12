@@ -13,6 +13,17 @@
 		43F1665F2A0E7B2B006E3E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F1665D2A0E7B2B006E3E59 /* Main.storyboard */; };
 		43F166612A0E7B2C006E3E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F166602A0E7B2C006E3E59 /* Assets.xcassets */; };
 		43F166642A0E7B2C006E3E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F166622A0E7B2C006E3E59 /* LaunchScreen.storyboard */; };
+		43F1666D2A0E7C51006E3E59 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1666B2A0E7C51006E3E59 /* LoginPage.swift */; };
+		43F1666E2A0E7C51006E3E59 /* LoginPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F1666C2A0E7C51006E3E59 /* LoginPage.xib */; };
+		43F166702A0E7DDB006E3E59 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1666F2A0E7DDB006E3E59 /* DataModel.swift */; };
+		43F166752A0E7EF5006E3E59 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F166742A0E7EF5006E3E59 /* APICaller.swift */; };
+		43F166772A0E8AA7006E3E59 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F166762A0E8AA7006E3E59 /* Extension.swift */; };
+		43F166792A0E8EEB006E3E59 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F166782A0E8EEB006E3E59 /* ViewModel.swift */; };
+		43F1667C2A0E935B006E3E59 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1667A2A0E935B006E3E59 /* HomePage.swift */; };
+		43F1667D2A0E935B006E3E59 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F1667B2A0E935B006E3E59 /* HomePage.xib */; };
+		43F166802A0E9463006E3E59 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1667E2A0E9463006E3E59 /* UserCard.swift */; };
+		43F166812A0E9463006E3E59 /* UserCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F1667F2A0E9463006E3E59 /* UserCard.xib */; };
+		4B19592ADD6B0FE2ABE357D9 /* Pods_MiniProject_Algobash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3539437A1B4AB726C0883B /* Pods_MiniProject_Algobash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,19 @@
 		43F166602A0E7B2C006E3E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F166632A0E7B2C006E3E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43F166652A0E7B2C006E3E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F1666B2A0E7C51006E3E59 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		43F1666C2A0E7C51006E3E59 /* LoginPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginPage.xib; sourceTree = "<group>"; };
+		43F1666F2A0E7DDB006E3E59 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		43F166742A0E7EF5006E3E59 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		43F166762A0E8AA7006E3E59 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		43F166782A0E8EEB006E3E59 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		43F1667A2A0E935B006E3E59 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		43F1667B2A0E935B006E3E59 /* HomePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
+		43F1667E2A0E9463006E3E59 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
+		43F1667F2A0E9463006E3E59 /* UserCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCard.xib; sourceTree = "<group>"; };
+		A22A20D0C73FC1085AC051FF /* Pods-MiniProject_Algobash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProject_Algobash.debug.xcconfig"; path = "Target Support Files/Pods-MiniProject_Algobash/Pods-MiniProject_Algobash.debug.xcconfig"; sourceTree = "<group>"; };
+		B63E490847E59F35881E5576 /* Pods-MiniProject_Algobash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProject_Algobash.release.xcconfig"; path = "Target Support Files/Pods-MiniProject_Algobash/Pods-MiniProject_Algobash.release.xcconfig"; sourceTree = "<group>"; };
+		BE3539437A1B4AB726C0883B /* Pods_MiniProject_Algobash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniProject_Algobash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B19592ADD6B0FE2ABE357D9 /* Pods_MiniProject_Algobash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184D3009D81F6663616294E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE3539437A1B4AB726C0883B /* Pods_MiniProject_Algobash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43F1664B2A0E7B2B006E3E59 = {
 			isa = PBXGroup;
 			children = (
 				43F166562A0E7B2B006E3E59 /* MiniProject_Algobash */,
 				43F166552A0E7B2B006E3E59 /* Products */,
+				CCDFDE5D27AC179ABFB5D8E4 /* Pods */,
+				184D3009D81F6663616294E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +95,54 @@
 				43F166592A0E7B2B006E3E59 /* SceneDelegate.swift */,
 				43F1665B2A0E7B2B006E3E59 /* ViewController.swift */,
 				43F1665D2A0E7B2B006E3E59 /* Main.storyboard */,
+				43F166712A0E7EA7006E3E59 /* Model */,
+				43F1666F2A0E7DDB006E3E59 /* DataModel.swift */,
+				43F166732A0E7EB9006E3E59 /* View */,
+				43F166722A0E7EAF006E3E59 /* ViewModel */,
 				43F166602A0E7B2C006E3E59 /* Assets.xcassets */,
 				43F166622A0E7B2C006E3E59 /* LaunchScreen.storyboard */,
 				43F166652A0E7B2C006E3E59 /* Info.plist */,
+				43F166742A0E7EF5006E3E59 /* APICaller.swift */,
+				43F166762A0E8AA7006E3E59 /* Extension.swift */,
 			);
 			path = MiniProject_Algobash;
+			sourceTree = "<group>";
+		};
+		43F166712A0E7EA7006E3E59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43F166722A0E7EAF006E3E59 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				43F166782A0E8EEB006E3E59 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		43F166732A0E7EB9006E3E59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43F1666B2A0E7C51006E3E59 /* LoginPage.swift */,
+				43F1666C2A0E7C51006E3E59 /* LoginPage.xib */,
+				43F1667A2A0E935B006E3E59 /* HomePage.swift */,
+				43F1667B2A0E935B006E3E59 /* HomePage.xib */,
+				43F1667E2A0E9463006E3E59 /* UserCard.swift */,
+				43F1667F2A0E9463006E3E59 /* UserCard.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCDFDE5D27AC179ABFB5D8E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A22A20D0C73FC1085AC051FF /* Pods-MiniProject_Algobash.debug.xcconfig */,
+				B63E490847E59F35881E5576 /* Pods-MiniProject_Algobash.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43F166682A0E7B2C006E3E59 /* Build configuration list for PBXNativeTarget "MiniProject_Algobash" */;
 			buildPhases = (
+				8FF97E1C69D2BE7BEE390866 /* [CP] Check Pods Manifest.lock */,
 				43F166502A0E7B2B006E3E59 /* Sources */,
 				43F166512A0E7B2B006E3E59 /* Frameworks */,
 				43F166522A0E7B2B006E3E59 /* Resources */,
+				6E3114A0569CC14BD56F9229 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F1667D2A0E935B006E3E59 /* HomePage.xib in Resources */,
+				43F1666E2A0E7C51006E3E59 /* LoginPage.xib in Resources */,
+				43F166812A0E9463006E3E59 /* UserCard.xib in Resources */,
 				43F166642A0E7B2C006E3E59 /* LaunchScreen.storyboard in Resources */,
 				43F166612A0E7B2C006E3E59 /* Assets.xcassets in Resources */,
 				43F1665F2A0E7B2B006E3E59 /* Main.storyboard in Resources */,
@@ -133,13 +216,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E3114A0569CC14BD56F9229 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniProject_Algobash/Pods-MiniProject_Algobash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniProject_Algobash/Pods-MiniProject_Algobash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniProject_Algobash/Pods-MiniProject_Algobash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF97E1C69D2BE7BEE390866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniProject_Algobash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43F166502A0E7B2B006E3E59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F166702A0E7DDB006E3E59 /* DataModel.swift in Sources */,
+				43F1667C2A0E935B006E3E59 /* HomePage.swift in Sources */,
+				43F166752A0E7EF5006E3E59 /* APICaller.swift in Sources */,
+				43F166772A0E8AA7006E3E59 /* Extension.swift in Sources */,
+				43F1666D2A0E7C51006E3E59 /* LoginPage.swift in Sources */,
 				43F1665C2A0E7B2B006E3E59 /* ViewController.swift in Sources */,
 				43F166582A0E7B2B006E3E59 /* AppDelegate.swift in Sources */,
+				43F166792A0E8EEB006E3E59 /* ViewModel.swift in Sources */,
+				43F166802A0E9463006E3E59 /* UserCard.swift in Sources */,
 				43F1665A2A0E7B2B006E3E59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +414,7 @@
 		};
 		43F166692A0E7B2C006E3E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22A20D0C73FC1085AC051FF /* Pods-MiniProject_Algobash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +428,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +444,7 @@
 		};
 		43F1666A2A0E7B2C006E3E59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63E490847E59F35881E5576 /* Pods-MiniProject_Algobash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +458,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
